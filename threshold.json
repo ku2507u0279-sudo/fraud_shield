@@ -1,0 +1,31 @@
+{
+  "threshold": 0.9258070731397231,
+  "validation_precision": 1.0,
+  "validation_f1": 0.5981308411214953,
+  "validation_recall": 0.4266666666666667,
+  "test_precision": 0.9970059880239521,
+  "test_recall": 0.444,
+  "test_f1": 0.6143911439114391,
+  "test_average_precision": 0.9378594509110723,
+  "test_confusion_matrix": [
+    [
+      749,
+      1
+    ],
+    [
+      417,
+      333
+    ]
+  ],
+  "test_rows": 1500,
+  "fraud_rate": 0.5,
+  "features": [
+    "Amount",
+    "MerchantID",
+    "Hour",
+    "DayOfWeek",
+    "Month",
+    "TransactionType",
+    "Location"
+  ]
+}

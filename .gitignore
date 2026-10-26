@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
+fraud_model.joblib
+*.pyc
